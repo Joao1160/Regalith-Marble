@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Carrara Marble",
+    "description": "A classic white marble with subtle gray veining, known for its elegance and use in sculpture and architecture.",
+    "features": [
+      "Elegant white appearance",
+      "Fine gray veining",
+      "Easy to polish",
+      "Widely available"
+    ],
+    "mainImage": "images/image1.png",
+    "gallery": [
+      {
+        "title": "Close-up Veining",
+        "path": "images/image2.png"
+      },
+      {
+        "title": "Bathroom Application",
+        "path": "images/image3.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Calacatta Marble",
+    "description": "Luxurious white marble with thick, bold veining that ranges from gold to gray, often used in high-end designs.",
+    "features": [
+      "Rich veining patterns",
+      "Luxurious aesthetic",
+      "High-end finish",
+      "Durable surface"
+    ],
+    "mainImage": "images/image2.png",
+    "gallery": [
+      {
+        "title": "Kitchen Island",
+        "path": "images/image3.png"
+      },
+      {
+        "title": "Veining Detail",
+        "path": "images/image4.png"
+      },
+      {
+        "title": "Full Slab",
+        "path": "images/image5.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Emperador Marble",
+    "description": "A deep brown marble with lighter veining, offering a warm and rich look ideal for classic interiors.",
+    "features": [
+      "Warm brown tones",
+      "Good for interiors",
+      "Polishes well",
+      "Natural elegance"
+    ],
+    "mainImage": "images/image3.png",
+    "gallery": [
+      {
+        "title": "Living Room Floor",
+        "path": "images/image4.png"
+      },
+      {
+        "title": "Veining Detail",
+        "path": "images/image5.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Statuario Marble",
+    "description": "Premium white marble with dramatic dark gray veining, highly prized for its luxurious appearance.",
+    "features": [
+      "High-end appearance",
+      "Striking veining",
+      "Perfect for feature walls",
+      "Rare and exclusive"
+    ],
+    "mainImage": "images/image4.png",
+    "gallery": [
+      {
+        "title": "Wall Accent",
+        "path": "images/image5.png"
+      },
+      {
+        "title": "Polished Surface",
+        "path": "images/image6.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nero Marquina Marble",
+    "description": "A rich black marble with sharp white veining, offering a bold contrast and modern elegance.",
+    "features": [
+      "Striking contrast",
+      "Modern look",
+      "Highly durable",
+      "Perfect for flooring"
+    ],
+    "mainImage": "images/image5.png",
+    "gallery": [
+      {
+        "title": "Hallway View",
+        "path": "images/image6.png"
+      },
+      {
+        "title": "Tabletop Finish",
+        "path": "images/image7.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Crema Marfil Marble",
+    "description": "Cream-colored marble with soft veining, commonly used in large flooring areas for a calm and uniform appearance.",
+    "features": [
+      "Soft cream tone",
+      "Uniform texture",
+      "Budget-friendly",
+      "Popular for floors"
+    ],
+    "mainImage": "images/image6.png",
+    "gallery": [
+      {
+        "title": "Lobby Floor",
+        "path": "images/image7.png"
+      },
+      {
+        "title": "Lobby Floor",
+        "path": "images/image8.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Thassos Marble",
+    "description": "Pure white marble from Greece, known for its crystal-like brightness and minimal veining.",
+    "features": [
+      "Pure white color",
+      "High reflectivity",
+      "Minimal veining",
+      "Perfect for luxury spaces"
+    ],
+    "mainImage": "images/image7.png",
+    "gallery": [
+      {
+        "title": "Bathroom Sink",
+        "path": "images/image8.png"
+      },
+      {
+        "title": "Wall Panel",
+        "path": "images/image9.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Rainforest Green Marble",
+    "description": "A unique green marble with tree-like veining patterns, evoking a natural forest floor aesthetic.",
+    "features": [
+      "Natural green tones",
+      "Exotic look",
+      "Unique patterns",
+      "Great for accent pieces"
+    ],
+    "mainImage": "images/image8.png",
+    "gallery": [
+      {
+        "title": "Countertop Detail",
+        "path": "images/image9.jpg"
+      },
+      {
+        "title": "Wall Feature",
+        "path": "images/image10.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pink Marble",
+    "description": "A soft pink marble with delicate veining, adding warmth and elegance to feminine or romantic designs.",
+    "features": [
+      "Soft pink hue",
+      "Gentle veining",
+      "Unique color palette",
+      "Ideal for bathrooms"
+    ],
+    "mainImage": "images/image9.jpg",
+    "gallery": [
+      {
+        "title": "Bathroom Wall",
+        "path": "images/image10.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Green Guatemala Marble",
+    "description": "A rich dark green marble with fine white veining, often used in statement pieces or luxury interiors.",
+    "features": [
+      "Dark green beauty",
+      "Subtle veining",
+      "Luxurious vibe",
+      "Great for tabletops"
+    ],
+    "mainImage": "images/image11.jpg",
+    "gallery": [
+      {
+        "title": "Table Finish",
+        "path": "images/image10.jpg"
+      },
+      {
+        "title": "Stair Detail",
+        "path": "images/image1.png"
+      }
+    ]
+  }
+]

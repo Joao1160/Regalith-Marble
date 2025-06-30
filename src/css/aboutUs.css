@@ -1,0 +1,175 @@
+:root {
+    --main-color: #ffe8cc;
+    --secondary-color: #d8b265;
+    --dark-color: #1a1a1a;
+    --font-size: 18px;
+    --font-family-headline: "Playfair Display", serif;
+    --font-family-normal: "Roboto", sans-serif;
+    --padding-y: 50px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-us {
+  background: url(../images/about-willpaper.jpg);
+  background-size: cover;
+  background-position: center ;
+  position: relative;
+  z-index: 2;
+}
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000dd;
+  z-index: -1;
+}
+
+.section-heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section-heading h2 {
+    font-size: 3rem;
+    font-family: var(--font-family-headline);
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.section-heading span {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: var(--secondary-color);
+    margin: 20px auto ;
+}
+.about-us .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 80px;
+  gap: 50px;
+  z-index: 4;
+}
+.about-us .container .logo-image{
+    flex: 1;
+}
+.about-us .container .logo-image img {
+  max-width: 400px;
+
+}
+.about-us .container .about-datails{
+    flex: 1;
+}
+.about-us .container .about-datails .about-title {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-style: italic;
+}
+.about-us .container .about-datails .text {
+  font-family: var(--font);
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.about-us .container .about-datails .desc {
+  font-family: var(--font);
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+  /* width: 400px; */
+  line-height: 1.5;
+}
+
+.about-us .container .about-datails .social-links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-family: var(--font-family-normal);
+}
+
+.about-us .container .about-datails .social-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.about-us .container .about-datails .social-links a:hover {
+    filter: brightness(120%);
+    transform: scale(1.2);
+}
+@media (max-width: 992px) {
+
+.about-us .container .logo-image img {
+  max-width: 300px;
+
+}
+
+  .about-us .container .about-datails .link {
+    font-size: 22px;
+    flex-basis: 180px;
+  }
+}
+@media (max-width: 786px) {
+  .about-us .container {
+    flex-direction: column;
+  }
+
+  .about-us .container .about-datails {
+    text-align: center;
+  }
+
+  .about-us .container .about-image img {
+    max-width: 320px;
+  }
+
+  .about-us .container .about-datails .desc {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .about-us .container .about-datails .social-links {
+    justify-content: center;
+  }
+
+  .about-us .container .about-datails .link {
+    font-size: 18px;
+    font-weight: bold;
+    flex-basis: 150px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .about-us .container .about-datails .link .google {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 300;
+  }
+  .about-us .container .about-datails .link .app-store {
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
