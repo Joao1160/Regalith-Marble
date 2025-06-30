@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Regalith-Marble/static/css/main.1b80416f.css",
-    "main.js": "/Regalith-Marble/static/js/main.b6980eab.js",
+    "main.css": "/Regalith-Marble/static/css/main.6a153a10.css",
+    "main.js": "/Regalith-Marble/static/js/main.38b2456b.js",
     "static/js/453.0a9972b8.chunk.js": "/Regalith-Marble/static/js/453.0a9972b8.chunk.js",
     "static/media/catalog.pdf": "/Regalith-Marble/static/media/catalog.46f47e1fcf2fb8f49a38.pdf",
     "static/media/UI.png": "/Regalith-Marble/static/media/UI.439fb1042712782e3349.png",
@@ -41,12 +41,12 @@
     "static/media/image9.jpg": "/Regalith-Marble/static/media/image9.470a31b32820863b71bd.jpg",
     "static/media/logo.svg": "/Regalith-Marble/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/Regalith-Marble/index.html",
-    "main.1b80416f.css.map": "/Regalith-Marble/static/css/main.1b80416f.css.map",
-    "main.b6980eab.js.map": "/Regalith-Marble/static/js/main.b6980eab.js.map",
+    "main.6a153a10.css.map": "/Regalith-Marble/static/css/main.6a153a10.css.map",
+    "main.38b2456b.js.map": "/Regalith-Marble/static/js/main.38b2456b.js.map",
     "453.0a9972b8.chunk.js.map": "/Regalith-Marble/static/js/453.0a9972b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b80416f.css",
-    "static/js/main.b6980eab.js"
+    "static/css/main.6a153a10.css",
+    "static/js/main.38b2456b.js"
   ]
 }
