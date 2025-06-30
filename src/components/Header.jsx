@@ -24,7 +24,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const isScrolled = window.scrollY > 50;
+      const isScrolled = window.scrollY > 5;
 
       // Hide first nav
       if (contactHeaderRef.current) {

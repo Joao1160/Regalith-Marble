@@ -6,8 +6,6 @@
     --font-family-headline: "Playfair Display", serif;
     --font-family-normal: "Roboto", sans-serif;
     --padding-y: 50px;
-    --color: #6497af;
-    --color2: #d8b265;
 }
 
 * {
@@ -27,9 +25,9 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    transition: box-shadow 0.3s ease;
-    padding: 10px 0;
-    margin-top: 50px;
+    transition: box-shadow 0.3s ease, margin-top 0.3s ease , padding 0.3s ease ;
+    /* padding: 10px 0; */
+    margin-top: 40px;
 }
 
 .header.scrolled {
@@ -47,9 +45,9 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 50px;
+    height: 40px;
     padding:0;
-    line-height: 50px;
+    line-height: 40px;
 }
 .contact-header .container{
     padding: 0;
@@ -92,7 +90,7 @@
 }
 
 .header .nav .logo {
-    width: 150px;
+    width: 180px;
 }
 
 .header .nav .logo img {
@@ -123,7 +121,7 @@
 
 }
 .shrink-header {
-  padding: 10px 0;
+  padding: 5px 0;
   margin: 0;
   transition: all 0.5s ease-in-out;
 }
